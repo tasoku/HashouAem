@@ -41,17 +41,15 @@ import com.day.cq.dam.api.Asset;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.net.URLConnection;
-import java.nio.charset.Charset;
-
 import org.apache.jackrabbit.commons.json.JsonParser;
 import org.apache.lucene.util.IOUtils;
 import org.apache.sling.commons.json.JSONObject;
 import org.json.simple.JSONArray;
 
-public class damserviceimpl{
+
+
+
+public class damserviceImpl{
 
     public static void getJson() {
 		
@@ -143,3 +141,4 @@ public class damserviceimpl{
 	}
 
 }
+
